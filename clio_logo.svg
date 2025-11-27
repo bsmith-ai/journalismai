@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <!-- Gradients for a modern look -->
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f81c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#002855;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Group for the Icon (Left) -->
+  <g transform="translate(20, 10)">
+    <!-- Abstract 'C' / Lens Shape -->
+    <!-- The outer ring representing the "Lens" or "Archive" -->
+    <path d="M50 10 A40 40 0 1 0 50 90 A40 40 0 1 0 50 10 Z M50 25 A25 25 0 1 1 50 75 A25 25 0 1 1 50 25 Z" 
+          fill="url(#iconGradient)" />
+    
+    <!-- The 'Scroll' or 'Data' element cutting through -->
+    <path d="M45 20 L85 20 L85 80 L45 80" 
+          fill="none" 
+          stroke="#d93025" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+          
+    <!-- Digital nodes/dots -->
+    <circle cx="85" cy="20" r="4" fill="#d93025" />
+    <circle cx="85" cy="80" r="4" fill="#d93025" />
+  </g>
+
+  <!-- Group for the Text (Right) -->
+  <g transform="translate(130, 80)">
+    <text font-family="'Merriweather', serif" font-weight="700" font-size="60" fill="#1a1a1a">
+      Clio
+    </text>
+  </g>
+  
+  <!-- Subtitle (Optional, small) -->
+  <g transform="translate(132, 100)">
+    <text font-family="'DM Sans', sans-serif" font-weight="400" font-size="12" fill="#666" letter-spacing="2">
+      THE METADATA SANDBOX
+    </text>
+  </g>
+</svg>
